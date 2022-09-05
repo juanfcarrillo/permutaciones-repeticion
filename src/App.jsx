@@ -35,6 +35,7 @@ function App() {
 
   return (
     <div className='container-all'>
+      <h3>Elementos: </h3>
       <form onSubmit={handleAddButton}className='elements-container'>
         <div className='elements'>
           {elements.map(elem => 
