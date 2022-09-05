@@ -1,4 +1,10 @@
-import { factorial } from 'mathjs'
+function factorial(n) {
+    let nFactorial = 1;
+    for (let i = 1; i <= n; i++) {
+        nFactorial *= i;
+    }
+    return nFactorial;
+}
 
 function permutation (conjElems) {
     var set =[];
